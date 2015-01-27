@@ -1,0 +1,141 @@
+h1, h2, h3, h4, h5, h6, body{
+    font-family:"Myriad Pro";
+}
+h1{
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+h2{
+    font-size:36px;
+    font-weight: normal;
+    color:white;
+}
+h3{
+    font-size:14px;
+    color:#fe7f13;
+}
+h4{
+    font-size:14px;
+    color:#777777;
+}
+h5{
+    color:#2498f4;
+    font-size:32px;
+}
+h6{
+    color:#208de4;
+    font-size:21px;
+}
+.section{
+    margin-bottom:-10px;
+}
+.header{
+    min-height:40px;
+    max-height:40px;
+    background-color: #208de4;
+}
+.settings{
+    min-height:40px;
+    max-height:40px;
+    background-color: #208de4;
+}
+
+.menu-left{
+    max-height:1px;
+}
+.menu-center{
+    min-height:110px;
+}
+.menu-right{
+    min-height:20px;
+}
+.dash{
+    min-height:70px;
+    background-color:#33cc66;
+}
+.search{
+    min-height:70px;
+    background-color:#33cc66;
+}
+.announce{
+    border:1px solid black;
+    min-height:40px;
+}
+.announce-text{
+    border:1px solid black;
+    min-height:40px;
+}
+.arrows{
+    border:1px solid black;
+    min-height:40px;
+}
+.tasks{
+    border:1px solid black;
+    min-height:300px;
+}
+section {
+    width: 80%;
+    height: 40px;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    background:#33cc66;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    padding:4px;
+    color:white;
+    margin-bottom:30px;
+    margin-top:-3px;
+    float:left;
+}
+.task-body{
+    padding-left:40px;
+}
+.analytics{
+    border:1px solid black;
+    min-height:300px;
+}
+.recommend{
+    border:1px solid black;
+    min-height:400px;
+}
+.line-graph{
+    border:1px solid black;
+    min-height:400px;
+}
+.slider{
+    border:1px solid black;
+    min-height:200px;
+}
+.ad-1{
+    border:1px solid black;
+    min-height:300px;
+}
+.ad-2{
+    border:1px solid black;
+    min-height:300px;
+}
+.ad-3{
+    border:1px solid black;
+    min-height:300px;
+}
+.footer-nav{
+    border:1px solid black;
+    min-height:50px;    
+}
+.footer-text{
+    border:1px solid black;
+    min-height:50px;
+}
+.footer-logout{
+    border:1px solid black;
+    min-height:50px;
+}
+.footer-social{
+    border:1px solid black;
+    min-height:50px;
+}
