@@ -1,5 +1,5 @@
 .analytics-icon-hover, .analytics-icon, .customers-icon-hover, .customers-icon, .dashboard-icon-hover, .dashboard-icon, .messages-icon-hover, .messages-icon, .page-icon-hover, .page-icon, .promotions-icon-hover, .promotions-icon{
-	background: url(sprites.png) no-repeat;
+	background: url(sprites-nav.png) no-repeat;
 	display:block;
 }
 

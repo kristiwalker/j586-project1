@@ -9,7 +9,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/sprites.css" rel="stylesheet">
+    <link href="css/sprites-nav.css" rel="stylesheet">
+    <link href="css/sprites-icons.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,12 +23,22 @@
     
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-8 header"></div>
-        <div class="col-xs-12 col-md-4 settings"><h1>MINI of Raleigh</h1></div>
+        <div class="col-xs-4 col-md-9 header"></div>
+        <div class="col-xs-8 col-md-3 settings">
+          <div class="col-xs-7 col-md-6 mini">
+            <h1>MINI of Raleigh</h1>
+          </div>
+          <div class="col-xs-5 col-md-6 question">
+            <a class="spacer"></a>
+            <a href="#" class="question-icon"></a>
+            <a class="spacer"></a>
+            <a href="#" class="settings-icon"></a>
+          </div>
+        </div>
       </div>
-      <div class="row navRow">
-        <div class="hidden-xs col-sm-12 col-md-2 col-lg-3 menu-left"></div>
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 menu-center">
+      <div class="row nav-background">
+        <div class="hidden-xs col-sm-12 col-md-2 col-lg-3 nav-left"></div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 nav-center">
             <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
               <a href="#" class="dashboard-icon"></a>
             </div>
@@ -46,7 +58,7 @@
               <a href="#" class="analytics-icon"></a>
             </div>
         </div>
-        <div class="hidden-xs col-sm-12 col-md-2 col-lg-3 menu-right"></div>
+        <div class="hidden-xs col-sm-12 col-md-2 col-lg-3 nav-right"></div>
       </div>
     </div>
     <div class="container">

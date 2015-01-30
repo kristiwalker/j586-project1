@@ -2,9 +2,13 @@ h1, h2, h3, h4, h5, h6, body{
     font-family:"Myriad Pro";
 }
 h1{
-    font-weight: bold;
+    font-style:bold;
+    font-weight:600;
     font-size: 14px;
     color: white;
+    text-align:center;
+    margin: 0 0 0 0;
+    padding: 15px 0 0 0;
 }
 h2{
     font-size:36px;
@@ -27,35 +31,52 @@ h6{
     color:#208de4;
     font-size:21px;
 }
-.navRow{
+.nav-background{
     background-image:url("background.jpg");
     overflow:auto;
 }
-.section{
-    margin-bottom:-10px;
-}
 .header{
-    min-height:40px;
-    max-height:40px;
+    min-height:45px;
+    max-height:45px;
     background-color: #208de4;
 }
 .settings{
+    min-height:45px;
+    max-height:45px;
+    background-color: #208de4;
+}
+.question{
+    padding:8px 0 0 0;
+}
+.gear{
+    padding:8px 0 0 0;
+}
+.icons{
     min-height:40px;
     max-height:40px;
     background-color: #208de4;
 }
-.menu-left{
+.nav-left{
     min-height:110px;
 }
-.menu-center{
+.nav-center{
     min-height:110px;
 }
-.menu-right{
+.nav-right{
     min-height:110px;
 }
 .dash{
     min-height:70px;
     background-color:#33cc66;
+    margin-top:20px;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color:transparent;
+}
+.search{
+    min-height:70px;
+    background-color:#33cc66;
+    margin-top:20px;
 }
 .announce{
     border:1px solid black;
