@@ -27,6 +27,10 @@ h6{
     color:#208de4;
     font-size:21px;
 }
+.navRow{
+    background-image:url("background.jpg");
+    overflow:auto;
+}
 .section{
     margin-bottom:-10px;
 }
@@ -40,21 +44,16 @@ h6{
     max-height:40px;
     background-color: #208de4;
 }
-
 .menu-left{
-    max-height:1px;
+    min-height:110px;
 }
 .menu-center{
     min-height:110px;
 }
 .menu-right{
-    min-height:20px;
+    min-height:110px;
 }
 .dash{
-    min-height:70px;
-    background-color:#33cc66;
-}
-.search{
     min-height:70px;
     background-color:#33cc66;
 }
