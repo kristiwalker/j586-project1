@@ -50,7 +50,6 @@
 	background-position: -342px -38px ;
 	width: 20px;
 	height: 20px;
-	float:left;
 }
 
 .man-icon-active{
@@ -63,8 +62,5 @@
 	background-position: -441px -37px ;
 	width: 20px;
 	height: 20px;
-	float:right;
-	margin-top:25px;
-	margin-right:10px;
 }
 
